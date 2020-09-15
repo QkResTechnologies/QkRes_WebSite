@@ -2,15 +2,15 @@ To be added/Changed:
 
 // Init
 
-1. Create an Atlas DB and type server link with password in config.env
+1. Create an Atlas DB and type server link with password in config.env 
 2. Define an encryption key in the config.env
 3. Register App on Twitter,Facebook,Google and type the App IDs in auth.js
 
 // Future Updates
 
 1. Implement a Reset Password feature with nodeMailer
-2. Link Signup-Login Page to HomePage
-3. Do not display the hashed password on the Profile page - SEVERITY: HIGH
+2. Link Backend to Signup Page :heavy_check_mark:
+3. Link Signup-Login Page to HomePage. Do not display the hashed password on the Profile page - SEVERITY: HIGH  :heavy_check_mark:
 4. Link Rest of Website to function with this backend
 5. Move Error Handling to a new File
 6. Implement UnHandledErrorRejections
