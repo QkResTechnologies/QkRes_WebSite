@@ -2,8 +2,8 @@ To be added/Changed:
 
 // Init
 <ol>
-  <li> Create an Atlas DB and type server link with password in config.env  </li>
-  <li> Define an encryption key in the config.env </li>
+  <li> Create an Atlas DB and type server link with password in config.env :heavy_check_mark: </li>
+  <li> Define an encryption key in the config.env :heavy_check_mark: </li>
   <li> Register App on Twitter,Facebook,Google and type the App IDs in auth.js </li>
 </ol>
 // Future Updates
