@@ -10,12 +10,13 @@ To be added/Changed:
 
 1. Implement a Reset Password feature with nodeMailer
 2. Link Backend to Signup Page :heavy_check_mark:
-3. Link Signup-Login Page to HomePage. Do not display the hashed password on the Profile page - SEVERITY: HIGH  :heavy_check_mark:
-4. Link Rest of Website to function with this backend
-5. Move Error Handling to a new File
-6. Implement UnHandledErrorRejections
-7. Do Not send StackTrace for 500 error. Design a Page to be displayed
-8. Implement a Connection limit to block brute-force Regex attacks
+3. Link Signup-Login Page to HomePage. 
+4.Do not display the hashed password on the Profile page - SEVERITY: HIGH  :heavy_check_mark:
+5. Link Rest of Website to function with this backend
+6. Move Error Handling to a new File
+7. Implement UnHandledErrorRejections
+8. Do Not send StackTrace for 500 error. Design a Page to be displayed
+9. Implement a Connection limit to block brute-force Regex attacks
 
 // Testing:
 
