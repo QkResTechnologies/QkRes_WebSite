@@ -1,0 +1,35 @@
+<!doctype html>
+
+<head>
+    <title>Deactivate Your Account</title>
+</head>
+
+<body>
+    <h1>Deactivate Your Account</h1>
+    <% if (message.length> 0) { %>
+        <div class="alert alert-danger">
+            <% if(message.length === 1) { %>
+                <strong> <%= message %> </strong>
+                <% } else { %>
+                    <ul>
+                        <% message.forEach(function(err) { %>
+                            <li><strong> <%= err %> </strong></li>
+                            <% }) %>
+                    </ul>
+                    <% } %>
+        </div>
+        <% } %>
+            <form action="/deactivate" method="POST">
+                <input type="hidden" name="token" value=token>
+                <div>
+                    <input name="email" placeholder="Email" required />
+                </div>
+                <div>
+                    <input name="password" placeholder="Password" required type="password" />
+                </div>
+                <div>
+                    <button class="btn btn-warning btn-lg" type="submit">Deactivate</button>
+                </div>
+            </form>
+            <div> <a href="/">Return Home</a></div>
+</body>
